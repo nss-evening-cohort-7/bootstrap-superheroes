@@ -20,7 +20,12 @@ h2 {
 .charDescription {
   color: #E23636;
 }
-
 .charImage{
   border-radius: 100%;
+}
+.charImageMale{
+  border: 5px solid #518CCA;
+}
+.charImageFemale{
+  border: 5px solid pink;
 }
