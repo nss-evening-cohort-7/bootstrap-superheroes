@@ -6,7 +6,7 @@ const buildDomString = (heroes) => {
   let domString = "";
   for (let i = 0; i < heroes.length; i++) {
     domString +=   `<li>`;
-    domString +=     `<a href="#">${heroes[i].name}</a>`;
+    domString +=     `<a href="#" data-hero-id="${heroes[i].id}">${heroes[i].name}</a>`;
     domString +=   ` </li>`;
   }
   printToDom(domString, "awesome-dropdown");
